@@ -13,3 +13,6 @@ spring:
 #logging:
 #  level:
 #    root: debug
+springdoc:
+  swagger-ui:
+    path: /api-docs-ui
