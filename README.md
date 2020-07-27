@@ -57,6 +57,20 @@ http://localhost:8080/actuator
 
 [DockerFile url](https://github.com/viveklad1/pokemon-shakespeare-description/blob/develop/Dockerfile) for reference 
 
+## Available endpoint
+Here are the details below for the available end point
+
+```url
+Base URL: http://localhost:8080/
+GET /api/v1/students                     -> retrive all students
+GET /api/v1/fetchStudents?id={ID}        -> retrive specific student based on Id
+GET /api/v1/fetchStudents?class={class}  -> retrive students based on the class
+POST /api/v1/students                    -> cteate student record
+PUT /api/v1/students/{id}                -> update student data
+DELETE /api/v1/students/{id}             -> delete student 
+```
+
+
 ## Copyright
 
 Released under the Apache License 2.0. See the [LICENSE](https://github.com/codecentric/springboot-sample-app/blob/master/LICENSE) file.
