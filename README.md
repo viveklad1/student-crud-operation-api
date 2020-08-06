@@ -1,6 +1,6 @@
 # student-crud-operation-api
 
-In this microservice I have created the GET,POST,DELETE,PUT rest endpoint for Student. I have used JPA and in-memory DB(H@), for documentation I have used swagger-ui.
+In this microservice I have created the GET,POST,DELETE,PUT rest endpoint for Student. I have used JPA and in-memory DB(H2), for documentation I have used swagger-ui.
 Also, used actuator for production ready app it has health and info related endpoint.   
 ```URL 
 http://localhost:8080/api/v1/students/
